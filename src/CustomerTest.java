@@ -5,7 +5,7 @@ public class CustomerTest {
         Customer customer = new Customer();
         customer.displayCustomerInfo();
         customer.setID(10);
-        customer.isNew(false);
+        customer.setIsNew(false);
         customer.setTotal(120.5F);
         customer.displayCustomerInfo();
     }
