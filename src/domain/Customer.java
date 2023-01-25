@@ -13,7 +13,7 @@ public class Customer {
     public void setID(int ID){
         this.ID=ID;
     }
-    public void isNew(boolean isNew){
+    public void setIsNew(boolean isNew){
         this.isNew=isNew;
     }
     public void setTotal(float total){
